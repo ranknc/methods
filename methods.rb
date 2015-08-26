@@ -1,4 +1,4 @@
-	module Methods
+module Methods
 	
 	
 	# sleep_in?
@@ -42,5 +42,25 @@
 	# * b - an integer
 	#
 	# TODO - write sum_double
-
+	def sum_double(a, b)
+		if(a == b)
+		(a + b)*2
+		else
+		a + b
+		end
 	end
+
+	def diff21(n) 
+		if (n <= 21)
+			(n - 21).abs
+		elsif (n > 21)
+			(n-21).abs*2
+		end
+	end
+
+	def parrot_trouble?()
+		
+		
+	end
+	
+end
